@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XY_JPUSH"
-  s.version      = "1.0.1"
+  s.version      = "2.1.7"
   s.summary      = "Jpush，极光推送库"
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
+    s.public_header_files ="jpush/jpush/JPUSHService.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-    s.resources = "jpush/jpush/*.a"
+
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -123,6 +123,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
+    s.ios.vendored_library = 'jpush/jpush/jpush-ios-2.1.7.a'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
