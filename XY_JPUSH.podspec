@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-    s.ios.vendored_library = 'jpush/jpush/jpush-ios-2.1.7.a'
+    s.vendored_librarys = "jpush/jpush/jpush-ios-2.1.7.a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
