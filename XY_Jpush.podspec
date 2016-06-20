@@ -80,7 +80,7 @@ Offically supported JPush iOS SDK Pod. 官方支持的极光推送SDK. \n集成�
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/rRun/XY_Jpush.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/rRun/jpush.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
