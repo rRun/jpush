@@ -92,10 +92,10 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "jpush/jpush/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  ＃s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-    s.public_header_files ="jpush/jpush/JPUSHService.h"
+  ＃ s.public_header_files ="jpush/jpush/JPUSHService.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -118,12 +118,12 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+    s.frameworks = "UIKit", "CFNetwork","CoreFoundation","CoreTelephony","SystemConfiguration","CoreGraphicsCoreGraphics","Foundation","Security"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-    s.vendored_library = "jpush/jpush/jpush-ios-2.1.7.a"
+    s.vendored_librarys = "jpush/jpush/*.a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
