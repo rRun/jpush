@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EA5B19BA1D0FE3C5006AAEBF /* jpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B19B81D0FE3C5006AAEBF /* jpush-ios-2.1.7.a */; };
 		EA5B19BC1D0FE493006AAEBF /* JPUSHService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA5B19B91D0FE3C5006AAEBF /* JPUSHService.h */; };
-		EA5B19BD1D0FE4A1006AAEBF /* libjpush.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA5B19AC1D0FE16F006AAEBF /* libjpush.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +18,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EA5B19BD1D0FE4A1006AAEBF /* libjpush.a in CopyFiles */,
 				EA5B19BC1D0FE493006AAEBF /* JPUSHService.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

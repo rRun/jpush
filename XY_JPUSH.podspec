@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
     s.frameworks = "UIKit", "CFNetwork","CoreFoundation","CoreTelephony","SystemConfiguration","CoreGraphicsCoreGraphics","Foundation","Security"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+    s.libraries = "z"
 
     s.vendored_library = "jpush/jpush/jpush-ios-2.1.7.a"
 
